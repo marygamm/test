@@ -4,7 +4,7 @@ def arithmetic_mean(x): #среднее арифметическое списк�
         return "list is empty"
     else:
         for num in x:
-            summ123 += int(num)
+            summ += int(num)
         return summ / len(x)
     
 s = input()
